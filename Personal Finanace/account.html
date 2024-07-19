@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Personal Finance Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Manager</h1>
+        <nav>
+            <ul>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="account-selection">
+            <h2>Select Account</h2>
+            <div>
+                <button onclick="location.href='cash-account.html'">Cash Account</button>
+                <button onclick="location.href='home-expense-account.html'">Home Expense Account</button>
+            </div>
+        </section>
+        <section id="create-account">
+            <h2>Create a New Account</h2>
+            <form id="create-account-form">
+                <div class="form-group">
+                    <label for="account-name">Account Name:</label>
+                    <input type="text" id="account-name" name="account-name" required><br>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by Akshat Borda - 22AIML006</p>
+    </footer>
+</body>
+</html>
